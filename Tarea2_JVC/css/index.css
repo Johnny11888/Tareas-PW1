@@ -1,0 +1,157 @@
+
+body{
+        overflow-x: hidden;
+}
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.bannerweb{
+    background-image: url("../imagenes/banner.png");    
+    background-position: center;  
+    height: 100vh;  /*altura total*/ 
+    filter:brightness(75%); /*reduce el brillo al banner*/
+    
+}
+
+.centrado{
+    text-align:center;
+}
+
+.bajar1{
+    padding-top: 200px;
+}
+.bajar2{
+    padding-top: 100px;
+    color: #0f0101;
+}
+
+
+h1{
+    color:#d62a2a;    
+    font-size: 80px;
+}
+h2{
+    color:#e40000;
+    font-size: 60px;
+
+}
+h3{
+    color:#000;
+    font-size: 40px;
+}
+h4{
+    color:#4657f0;
+    font-size:100px;
+    font-family:sans-serif
+}
+.color1{
+    color:#000;
+    padding-top: 200px;
+    }
+p{
+    font-size: 20px;
+    /*superior/inferior  izq-dere*/
+    margin:40px 100px;
+    text-align: justify;
+}
+
+
+/*botones*/
+.botones {
+    width: 150px;   /*se usa para crear botones*/
+    height: 30px;   /*se usa para crear botones*/
+    border: 3px solid #fffc46;
+    cursor: pointer;    /*mano puntero*/
+    color: #fff;    /*color del boton*/
+    background-color: #28d144; /*fondo del color del boton*/
+    font-family: Arial;
+    font-size: 25px;    /* tamano del texto*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 5px 35px;  /* espacio relleno superior de 5 e inferior de 35*/
+    /*quita subrayado*/
+    text-decoration: none;  /*quita el subrayado*/
+    text-shadow: 0px 1px 0px #500101;
+    transition: all linear 0.2s;    /*cambio de color del boton al pasar el cursor*/
+    /*forma del boton redondeado*/
+    border-radius: 24px;    /*para que sea cuadrado el boton no hay que aplicar esta linea*/
+    
+}
+
+
+
+.botones:hover {    
+    width: 150px;
+    height: 30px;
+    background-color: #cd1231;  /*cuando se pasa el mouse cambia de color el boton*/
+    color: #efefef;
+    text-decoration: none;  
+    font-size: 20px;
+    transition: all linear 0.2s;
+}
+
+/*formulario*/
+.configform{    
+     display: flex;
+     justify-content: center;
+     padding-top: 100px;     
+     color: #fff;
+ }
+ .configform2{    
+    display: flex;
+    justify-content: center;    
+    color: #fff;
+}
+
+
+ label{
+    font-size: 30px;   
+    float: center;
+    font-weight: bold;
+    color: #0a0a0a;
+ }
+ /*controles input*/
+ .form-control{
+    font-size: 20px;   
+}
+
+footer{    
+    background-color: #000;
+    padding:40px 40px;
+    position: relative;
+    margin-top: 30px;
+}
+.formatospie{
+    color:#fff;
+    font-size: 24px;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+
+
+
+
+/* Quitar viñetas del menú */
+.desactivar {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos básicos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Espaciado entre los elementos del menú */
+.desactivar li {
+    margin-bottom: 10px;
+}
