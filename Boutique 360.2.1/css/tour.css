@@ -1,0 +1,183 @@
+/* Estilos para la portada */
+.portada-body {
+    background-image: url('../imagenes/banner.png'); /* imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-contenido {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-ingresar {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #fbff00;
+    color: rgb(5, 0, 0);
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-ingresar:hover {
+    background-color: #27ff01;
+}
+
+/* Estilos para tour.html */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #024758;
+}
+
+.encabezado {
+    background-color: #222;
+    color: rgb(248, 7, 7);
+    padding: 35px;
+    text-align: center;
+}
+
+#visor360 {
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.pie {
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+/*otros */
+body {
+    overflow-x: hidden; /* quita el scroll horizontal y vertical de la pantalla*/
+    overflow-y: hidden;
+}
+    
+#visor360 {
+    height: 100vh;    
+}
+.cursor {
+    cursor: pointer;
+}
+
+header {
+    padding: 20px 0;
+    width: 100%;
+} 
+footer {
+    /*padding: 15px 0;       tamano del footer*/
+    padding: 25px 0 35px 0; /* más espacio abajo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+}
+    header h1 {
+    text-align: center;
+}
+    footer h2 {
+    text-align: center;
+}
+.fondo {
+    background-color: #2e7d6f; /*color del fondo del footer y header*/
+}
+
+
+@media (max-width: 575px) {
+    #visor360 {
+        max-width: 100%;
+        position: relative;
+        
+    }
+    iframe {
+        width: 100% !important;
+    }
+    footer {
+        position: relative;
+    }
+}
+
+
+@media (min-width: 576px) {
+    #visor360 {
+        max-width: 100%;
+        position: relative;
+        /* Ajusta la posición de los elementos internos */
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #visor360 {
+        max-width: 100%;
+        position: relative;
+       
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #visor360 {
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    #visor360 {
+        width: 2000px;
+        height: 700px;
+    }
+    header h1 {
+        display: flex;
+        justify-content: center;
+    }
+    footer h2 {
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        width: 100% !important;
+    }
+    footer {
+        width: 100% !important;
+    }
+    iframe {
+        width: 640px !important;
+        height: 480px !important;
+    }
+
+
+
+}
